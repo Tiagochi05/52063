@@ -1,0 +1,6 @@
+mal:
+prueba "Login" {
+   dado el.usuario "invitado"
+    cuando el.boton.login es 
+    entonces la.pagina.home contiene "Denegado"
+}

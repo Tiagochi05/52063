@@ -1,0 +1,6 @@
+prueba "Login" {
+    dado usuario "flamengo"
+    dado contraseña "password"
+    cuando boton.login es "clickeado"
+    entonces pagina.home debe "bienvenida" 
+}

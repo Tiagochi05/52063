@@ -1,0 +1,5 @@
+prueba "Busqueda" {
+  dado el.campo.busqueda es "visible"
+  cuando el.usuario es "invitado"
+  entonces el.resultado.lista no es "visible"
+}

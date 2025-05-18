@@ -1,0 +1,5 @@
+prueba "Login" {
+   dado el.usuario "admin"
+    cuando el.boton.login es "clickeado"
+    entonces la.pagina.home contiene "bienvenida"
+}
